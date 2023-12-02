@@ -1,5 +1,5 @@
-#logo{
-    width: 50px;
+body{
+    font: roboto;
 }
 
 #section-one{
@@ -7,13 +7,18 @@
     color: white;
     display: flex;
     flex-direction: column;
+    padding: 16px 60px;
 }
 
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
+    margin-bottom: 32px;
+}
+
+#logo{
+    width: 50px;
 }
 
 a{
@@ -25,4 +30,43 @@ a{
 .links{
     display: flex;
     gap: 24px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 24px;
+    padding-top: 6px;
+}
+
+#mountain{
+    min-width: 0;
+    max-width: 400px;
+}
+
+.info{
+    width: 250px;
+    flex-shrink: 0;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 12px;
+}
+
+.text{
+    font-size: 16px;
+    color: f9faf8;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 8px;
+    font-weight: 750;
+    border-radius: 12px;
 }
