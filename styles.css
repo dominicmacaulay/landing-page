@@ -80,6 +80,7 @@ button{
     flex-direction: column;
     align-items: center;
     padding: 32px 0;
+    margin-bottom: 24px;
 }
 
 .title.center{
@@ -112,4 +113,26 @@ ul{
 .steps-text{
     font-size: 18px;
     text-align: center;
+}
+
+#section-three{
+    background-color: #d8dbe1;
+    color: #1f2937;
+}
+
+.quote-container{
+    padding: 75px 150px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100px;
+}
+
+.quote-source{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
